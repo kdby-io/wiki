@@ -24,7 +24,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 가상환경을 만들고 PROJECT_HOME에 프로젝트 폴더를 생성하면서 바인딩한다.
 
 
-## Autoenv
+# Autoenv
 디렉토리를 옮겨갈 때마다 `.env` 파일을 찾고 내용을 실행시켜준다.
 
     $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
