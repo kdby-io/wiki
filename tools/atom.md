@@ -11,7 +11,7 @@ sublime text처럼 프로젝트 단위로 여러 폴더를 묶어서 저장, 로
 프로젝트를 저장하면 .project 파일이 해당 폴더에 생기는데, `Open folder`로 이 폴더를 열면 프로젝트 전체가 불러와진다.
 
 #### linter
-문법 검사. linter-pep8 등을 설치하려면 필수.
+문법 검사. linter-flake8 등을 설치하려면 필수.
 
 #### terminal-plus
 atom에서 터미널 기능을 확장 시켜준다.
