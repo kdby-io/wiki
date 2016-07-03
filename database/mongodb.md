@@ -16,6 +16,13 @@ sudo apt-get update
 apt-get install -y --allow-unauthenticated mongodb-org
 ```
 
+
+# 실행
+```
+sudo service mongodb start
+```
+
+
 # Failed to start mongodb.service: Unit mongodb.service not found.
 /lib/systemd/system/mongodb.service 내용을 아래와 같이 넣어준다.
 ```

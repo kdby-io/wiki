@@ -45,3 +45,9 @@ form = Form(request.POST, request.FILES)
 ```py
 form = Form(instance=something)
 ```
+
+## Field 메소드
+- `to_python()`: 입력된 내용을 python 오브젝트로 바꾼 값 리턴
+- `validate()`: validator로 할 수 없거나 validator 밖에서 validate하고 싶은 경우 `validate()`를 override
+- `run_validators()`: validator를 실행시켜준다. override할 필요가 없댄다.
+- `clean()`: ValidationError이 없으면 form의 cleaned_data에 들어갈 데이터를 리턴
